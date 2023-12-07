@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import axios, { Axios } from "axios";
 import {ToastContainer,toast} from 'react-toastify';
-import paginationfactory from 'react-bootstrap-table2.css';
+// import paginationfactory from 'react-bootstrap-table2.css';
 import 'react-toastify/dist/ReactToastify.css';
 // import cors from "cors";
 
