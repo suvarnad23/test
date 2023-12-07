@@ -7,9 +7,32 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import axios, { Axios } from "axios";
 import {ToastContainer,toast} from 'react-toastify';
+import paginationfactory from 'react-bootstrap-table2.css';
 import 'react-toastify/dist/ReactToastify.css';
 // import cors from "cors";
 
+
+// const pagination=paginationfactory({
+// page:1,
+// sizeperpage:5,
+// lastPageText:'>>',
+// firstPageText:'<<',
+// nextPageText:'>',
+// prePageText:'<',
+// showTotal:true,
+// alwaysShowAllBtns:true,
+// onPageChange:function(page, sizeperpage)
+// {
+//     console.log('page',page);
+//     console.log('sizePerPage',sizeperpage);
+// },
+// onsizePerPageChange:function(page,sizePerPage)
+// {
+//     console.log('page',page);
+//     console.log('sizePerPage', sizePerPage);
+// }
+
+// });
 
 const Crud=()=>{
 
